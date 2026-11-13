@@ -1,5 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="112" fill="#174b38"/>
-  <path d="M142 342 232 252l62 62 106-120" fill="none" stroke="#c9ef86" stroke-linecap="round" stroke-linejoin="round" stroke-width="36"/>
-  <path d="M330 194h70v70" fill="none" stroke="#c9ef86" stroke-linecap="round" stroke-linejoin="round" stroke-width="36"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="TrackMySpends logo">
+  <defs>
+    <linearGradient id="tile" x1="70" y1="35" x2="445" y2="472" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#193B50"/>
+      <stop offset="1" stop-color="#16745D"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="146" y1="130" x2="369" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E9F5EF"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#tile)"/>
+  <circle cx="256" cy="256" r="190" fill="#FFFFFF" opacity=".055"/>
+  <path d="M160 106h153l78 78v220a28 28 0 0 1-28 28H160a28 28 0 0 1-28-28V134a28 28 0 0 1 28-28Z" fill="url(#paper)"/>
+  <path d="M313 108v53a24 24 0 0 0 24 24h52" fill="#D7EAE0"/>
+  <rect x="173" y="226" width="34" height="95" rx="12" fill="#B6D8C4"/>
+  <rect x="225" y="197" width="34" height="124" rx="12" fill="#71B28C"/>
+  <rect x="277" y="164" width="34" height="157" rx="12" fill="#287A5A"/>
+  <path d="M166 351h164" stroke="#C9DBD0" stroke-width="12" stroke-linecap="round"/>
+  <path d="M165 203c45 18 68 9 101-25 20-21 32-31 51-37" fill="none" stroke="#E3AA45" stroke-width="13" stroke-linecap="round" stroke-dasharray="1 1"/>
+  <circle cx="319" cy="137" r="57" fill="#F4C75E" stroke="#FFF" stroke-width="12"/>
+  <path d="m293 137 17 17 34-38" fill="none" stroke="#234E45" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="165" cy="203" r="14" fill="#E3AA45" stroke="#FFF" stroke-width="8"/>
 </svg>

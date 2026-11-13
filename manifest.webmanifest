@@ -2,13 +2,13 @@
   "id": "./index.html",
   "name": "TrackMySpends",
   "short_name": "TrackMySpends",
-  "description": "Daily expenses and monthly budgets, saved on this phone.",
+  "description": "Track expenses and savings on this device.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#f5f6f2",
-  "theme_color": "#174b38",
+  "background_color": "#eef1f2",
+  "theme_color": "#eef1f2",
   "icons": [
     { "src": "./icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
   ]
