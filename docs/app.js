@@ -64,7 +64,7 @@
     }catch{$('welcomeStatus').textContent='Could not save this profile in this browser. Check browser storage settings.';$('welcomeStatus').style.color='#9c292d'}finally{button.disabled=false}
   });
   function signOut(message='You are signed out.'){const phone=activeUser?.phone||localStorage.getItem(SESSION_KEY)||localStorage.getItem(LAST_PHONE_KEY)||'';if(activeUser)saveCache();if(phone)localStorage.setItem(LAST_PHONE_KEY,phone);localStorage.removeItem(SESSION_KEY);localStorage.removeItem(LAST_ACTIVE_KEY);activeUser=null;entries=[];budgets={};setAllAmountsVisible(false);$('mobileNumber').value=phone;$('pin').value='';setAuthMode(false);showAuth(message)}
-  function noteActivity(){if(!activeUser)return;const stamp=Date.now();if(stamp-lastActivityWrite>60000){lastActivityWrite=stamp;localStorage.setItem(LAST_ACTIVE_KEY,String(stamp))}}
+  function noteActivity(){if(!activeUser)return;checkInactivity();if(!activeUser)return;const stamp=Date.now();if(stamp-lastActivityWrite>60000){lastActivityWrite=stamp;localStorage.setItem(LAST_ACTIVE_KEY,String(stamp))}}
   function checkInactivity(){if(!activeUser)return;const last=Number(localStorage.getItem(LAST_ACTIVE_KEY))||Date.now();if(Date.now()-last>=INACTIVITY_LIMIT)signOut('You were signed out after 3 hours of inactivity. Sign in again.')}
   let lastActivityWrite=0;
   $('logoutButton').addEventListener('click',()=>signOut());
