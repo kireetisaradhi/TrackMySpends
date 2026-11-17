@@ -1,0 +1,8 @@
+docs/
+.git/
+.nojekyll
+.assetsignore
+auth.js
+0001_init.sql
+worker.js
+wrangler.jsonc
