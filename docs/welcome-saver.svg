@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 760" role="img" aria-labelledby="title desc">
+  <title id="title">A woman planning her savings</title>
+  <desc id="desc">A warm, colorful illustration of an Indian woman holding a coin jar and wallet.</desc>
+  <defs>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2c1b25"/><stop offset=".55" stop-color="#50303a"/><stop offset="1" stop-color="#251b28"/></linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffd5ae"/><stop offset="1" stop-color="#e99b73"/></linearGradient>
+    <linearGradient id="sari" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fb8b72"/><stop offset="1" stop-color="#db5d69"/></linearGradient>
+    <linearGradient id="blouse" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#248865"/><stop offset="1" stop-color="#105c49"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b9f0d2" stop-opacity=".78"/><stop offset="1" stop-color="#51b989" stop-opacity=".67"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffe477"/><stop offset="1" stop-color="#e5a52c"/></linearGradient>
+    <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.7"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <ellipse cx="314" cy="704" rx="207" ry="24" fill="#3d425a" opacity=".12" filter="url(#shadow)"/>
+  <!-- Hair behind the shoulders -->
+  <path d="M197 278c-38-82-17-181 41-221 43-31 126-34 176 10 54 48 66 136 32 220l-27 126H205Z" fill="url(#hair)"/>
+  <path d="M245 403c-14 77-25 164-20 243 3 40 28 70 62 67 35-3 43-41 41-78l-9-232Z" fill="url(#hair)"/>
+  <path d="M242 467c34 10 49 42 44 76-4 35-27 47-45 69m54-111c-35 8-48 34-48 67 0 31 18 48 41 61m-40-6c9 32 35 42 57 34" fill="none" stroke="#704351" stroke-width="8" stroke-linecap="round" opacity=".62"/>
+  <!-- Back drape -->
+  <path d="M234 367c-73 20-125 66-145 140-18 65-13 127 6 193h417c15-89-1-188-45-258-27-43-70-69-127-82Z" fill="url(#sari)"/>
+  <path d="M232 390c-49 38-74 102-69 191 3 46 13 86 30 119h-86c-19-66-21-131-1-193 20-65 64-105 126-126Z" fill="#ffd292" opacity=".62"/>
+  <!-- Blouse and shoulders -->
+  <path d="M224 365c-65 21-97 70-113 129-17 64-8 143 4 206h392c10-86 1-171-25-235-24-58-69-92-135-105l-60 31Z" fill="url(#blouse)"/>
+  <path d="M172 445c28 12 49 13 73 4m-68 19c26 11 47 12 69 4m-75 19c24 9 45 10 66 3m179-45c-25 14-49 17-72 12m76 7c-24 14-48 18-72 13m78 8c-24 14-47 18-68 14" fill="none" stroke="#78c49c" stroke-width="5" stroke-linecap="round" opacity=".68"/>
+  <!-- Neck and face -->
+  <path d="M265 311c2 48-9 71-36 91 31 38 114 49 161 1-29-21-41-49-39-99Z" fill="url(#skin)"/>
+  <ellipse cx="313" cy="218" rx="103" ry="130" fill="url(#skin)"/>
+  <!-- Hair framing the face -->
+  <path d="M208 224c-22-67-5-150 44-188 42-32 123-30 162 13 34 37 42 92 29 151-17-2-32-12-40-30-11-26-8-55-25-68-26 45-96 72-164 69-1 20 3 39 11 58l-17 34c-18-12-30-29-31-51Z" fill="url(#hair)"/>
+  <path d="M224 177c9-48 42-85 80-100m97 8c22 26 33 60 31 94" fill="none" stroke="#80515c" stroke-width="9" stroke-linecap="round" opacity=".55"/>
+  <!-- Face details -->
+  <path d="M262 222c14-12 29-12 42-2m35 0c14-11 29-10 42 2" fill="none" stroke="#55323b" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="283" cy="241" rx="7" ry="10" fill="#35232b"/><ellipse cx="358" cy="241" rx="7" ry="10" fill="#35232b"/>
+  <circle cx="285" cy="238" r="2.5" fill="#fff"/><circle cx="360" cy="238" r="2.5" fill="#fff"/>
+  <path d="M322 249c-3 16-9 28-4 33 4 3 10 3 14 0" fill="none" stroke="#c97d67" stroke-width="4" stroke-linecap="round"/>
+  <path d="M294 302c18 18 43 19 62-1" fill="none" stroke="#b85058" stroke-width="7" stroke-linecap="round"/>
+  <path d="M301 305c16 8 33 8 48-1" fill="none" stroke="#fff1df" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="321" cy="191" r="6" fill="#b83d52"/>
+  <!-- Earrings and necklace -->
+  <path d="M207 259c-8 17-5 34 8 43 13-9 16-26 8-43Z" fill="url(#gold)"/><path d="M401 259c8 17 5 34-8 43-13-9-16-26-8-43Z" fill="url(#gold)"/>
+  <path d="M250 371c29 31 87 41 125 2" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+  <!-- Left arm and hand holding a savings jar -->
+  <path d="M225 446c-38-20-64-18-82 4-22 28-36 60-53 84-12 17-12 35 2 45 15 11 32 3 44-9l89-81Z" fill="url(#skin)"/>
+  <path d="M215 448c-21 14-40 35-57 59" fill="none" stroke="#d78669" stroke-width="6" stroke-linecap="round"/>
+  <path d="M171 546c-10 3-18 11-26 20-11 13-23 17-34 10-11-8-6-21 4-32 12-13 22-24 28-36" fill="none" stroke="#e99776" stroke-width="8" stroke-linecap="round"/>
+  <!-- Glass jar -->
+  <path d="M69 400h125l-9 31 15 27v104c0 21-15 37-36 37H96c-21 0-36-16-36-37V458l16-27Z" fill="url(#glass)" stroke="#238f68" stroke-width="8"/>
+  <path d="M73 395h117v24H73Z" rx="8" fill="#f4c64d" stroke="#d99e2d" stroke-width="5"/>
+  <path d="M79 454c30 12 68 12 105 0" fill="none" stroke="#eafff2" stroke-width="7" opacity=".8"/>
+  <ellipse cx="132" cy="540" rx="35" ry="12" fill="#f6ca52"/>
+  <ellipse cx="152" cy="518" rx="34" ry="12" fill="#ffd969"/>
+  <ellipse cx="125" cy="497" rx="32" ry="11" fill="#efb83e"/>
+  <path d="M89 459v116" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+  <!-- Right hand holding a small wallet -->
+  <path d="M408 471c35 6 65 27 92 56 17 19 16 39 1 49-13 10-27 2-40-9l-69-43Z" fill="url(#skin)"/>
+  <rect x="353" y="479" width="150" height="128" rx="25" transform="rotate(-7 353 479)" fill="#f1a34b" stroke="#db7b3e" stroke-width="8"/>
+  <path d="M354 520l146-18v39l-145 18Z" fill="#df754f"/>
+  <circle cx="467" cy="535" r="10" fill="#ffd764"/>
+  <path d="M376 493l17 104" stroke="#ffda8a" stroke-width="6" opacity=".8"/>
+  <!-- Decorative hair and garment details -->
+  <circle cx="228" cy="343" r="9" fill="#edbb4c"/><circle cx="405" cy="343" r="9" fill="#edbb4c"/>
+  <path d="M190 666h222" stroke="#f6cf68" stroke-width="9" stroke-linecap="round" opacity=".8"/>
+</svg>
