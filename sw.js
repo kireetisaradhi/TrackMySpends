@@ -1,4 +1,4 @@
-const CACHE_NAME = 'trackmyspends-v35';
+const CACHE_NAME = 'trackmyspends-v36';
 const FILES = ['./', './index.html', './app.js', './manifest.webmanifest', './icon.svg', './welcome-saver.png', './entry-art.svg', './report-art.svg', './entries-art.svg', './budget-art.svg'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(FILES)));
